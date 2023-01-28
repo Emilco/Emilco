@@ -1,0 +1,72 @@
+h1{
+	color:darkorchid;
+	font-size:70px;
+	text-align:center; 
+}
+
+h2 { 
+	color: darkcyan;
+	font-size: 50px;
+	text-align: center;
+}
+
+body{
+	background-color: #90ee90;
+	font-family: sans-serif;
+}
+
+
+
+nav{
+	background-color: #33FFFF;
+	padding: 20px;
+}
+
+nav a {
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid magenta;
+	background-color: white;
+	border-radius: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+main img{
+	border: 20px groove darkorchid;
+	height: 250px;
+	padding: 0px;
+
+}
+
+main p{
+	color: Teal;
+	text-align: center;
+	font-size: 40px;
+}
+
+main {
+	padding: 100px;
+}
+
+	footer {
+		background-color: darkgoldenrod;
+		padding: 10px;
+	}
+
+ footer p {
+
+		font-size: 30px;
+		color: violet;
+		text-align: left;
+		background-color: white;
+		padding: 5px;
+
+	}
+
+	footer img {
+		width: 160px;
+		height: 150px;
+		margin: 0px 20px 0px 20px;
+	}
