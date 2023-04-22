@@ -33,12 +33,30 @@ nav a {
 	color: black;
 }
 
+nav a:hover {
+	background-color: lightseagreen;
+	color: white;
+	font-size: 30px;
+	}
+
+	nav a:focus {
+	background-color: lightseagreen;
+	color: violet;
+	font-size: 31px;
+	border: 10px dotted violet;
+	}
+
 main img{
 	border: 20px groove darkorchid;
-	height: 250px;
-	padding: 0px;
-
+	height: 200px;
+	opacity: 0.4;
 }
+
+main img:hover{
+	opacity: 1;
+	height: 220;
+}
+
 
 main p{
 	color: Teal;
@@ -62,11 +80,54 @@ main {
 		text-align: left;
 		background-color: white;
 		padding: 5px;
-
 	}
 
 	footer img {
 		width: 160px;
 		height: 150px;
 		margin: 0px 20px 0px 20px;
+	}
+
+	.gallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	section{
+		width: 950px;
+	}
+
+	article {
+		position: relative;
+		display: flex;
+		justify-content: space-around;
+		justify-content: space-between;
+		width: 900px;
+	}
+
+	.product {
+		position: relative;
+		border: 2px solid darkgreen;
+		background-color: white;
+		border-radius: 20px;
+		width: 600px;
+		height: 600px;
+	}
+
+	.miaso{
+		width: 200px;
+		height: 200px;
+		;
+	}
+
+
+	.miaso:hover {
+		transform: translateX(500px);
+		transition: 3s  linear;
+	}
+
+	.tr{
+		text-align: center;
+		text-decoration: none;
 	}
